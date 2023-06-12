@@ -4,7 +4,6 @@ A new Flutter project.
 
 ## Screenshots
 
-
-![Screenshot_2023-06-11-16-43-23-021_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/53131c21-8177-4caf-8444-72f5320e30f7)
-![Screenshot_2023-06-11-16-43-26-310_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/ac4fa725-4792-4af7-a752-3fea9d478521)
-![Screenshot_2023-06-11-16-43-31-333_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/f5047989-5ec5-425c-ad5f-09afcfd15c9d)
+![Screenshot_2023-06-12-12-02-08-235_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/e3a66ea2-6cc7-4215-8324-ab789e236a68)
+![Screenshot_2023-06-12-12-02-11-361_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/22e5834e-a1e2-4d5b-943d-8554284d1a91)
+![Screenshot_2023-06-12-12-02-16-735_com example photo_gallery](https://github.com/taslims-code/photo_gallery/assets/63874350/acc74b3e-d2f1-4ad5-93e1-55a3e9400e98)
