@@ -111,7 +111,10 @@ class HomeScreen extends StatelessWidget {
           ),
         );
       },
-      child: Column(
+      style: ButtonStyle(
+          shape: MaterialStateProperty.all(
+              RoundedRectangleBorder(borderRadius: BorderRadius.zero))),
+      child: Stack(
         children: [
           Image.network(
             imageUrl,
@@ -121,13 +124,25 @@ class HomeScreen extends StatelessWidget {
             cacheWidth: 275,
             fit: BoxFit.cover,
           ),
-          SizedBox(height: 8.0),
-          Text(caption),
+          // SizedBox(height: 8.0),
+          Positioned(
+            left: 10,
+            right: 10,
+            bottom: 10,
+            child: Container(
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: Colors.grey.withOpacity(0.50),
+                ),
+                child: Text(
+                  caption,
+                  style: const TextStyle(
+                    color: Colors.white,
+                  ),
+                )),
+          ),
         ],
       ),
-      style: ButtonStyle(
-          shape: MaterialStateProperty.all(
-              RoundedRectangleBorder(borderRadius: BorderRadius.zero))),
     );
   }
 }
